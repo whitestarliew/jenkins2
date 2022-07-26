@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Build') {
+            steps {
+                sh 'Checking..'
+                junit 'reports/**/*.xml'
+            }
+    }
+    
+    #haven't finished yet 
