@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "just build up first. ..."
+                echo "just build up ..."
                 echo "Building version ${NEW_VERSION}"
                 echo "
             }
